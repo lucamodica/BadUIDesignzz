@@ -1,17 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="p-2 w-screen h-screen bg-yellow-300 flex justify-center items-center">
+      <DropDownList msg="Welcome to Your beautiful dropdown list"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DropDownList from './components/DropDownList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DropDownList
   }
 }
 </script>
@@ -22,7 +21,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
